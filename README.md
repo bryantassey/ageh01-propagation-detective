@@ -32,3 +32,21 @@ Division; Stolons / Runners; Stem Cuttings; Leaf Cuttings; Rhizomes; Bulbs; Stem
 
 ## Important
 Students can repeat methods across specimens. Number-to-method answer keys are **not embedded** in the application, because the instructor selects the actual plants and reviews them in person. The app is designed for completion-based grading.
+
+
+## iPhone PDF fallback (v1.1)
+
+If the external jsPDF script fails to load, tap **Print / Save as PDF (Safari)** in the Export tab. A self-contained illustrated report opens in a new tab. Tap **Print / Save as PDF**, then on iPhone expand the print preview (pinch outward), tap **Share**, and choose **Save to Files**. This report includes all photos and responses and does not depend on external JavaScript libraries.
+
+To update GitHub Pages, replace the repository-root `index.html` with the included revised version. Existing student JSON backup files remain compatible.
+
+
+## Version 1.3: Offline PDF export
+
+The Download PDF Report button generates a PDF directly in the student browser without a third-party library or print dialog. The backup JSON format is unchanged from earlier versions. Keep the Safari report view as a fallback. For iPhone, open the site in Safari, tap Download PDF Report, then locate the file in Downloads/Files and submit it to Canvas. Test on student devices before class.
+
+## Version 1.4 improvements
+- Larger PDF report text with compact, multi-specimen pages when space permits.
+- A reflection self-check consistency warning when Correct/Incorrect does not agree with the original and discussed method.
+- Native file sharing on supported mobile browsers using the Web Share API, with direct PDF download as fallback. On iOS, choose Save to Files from the system share sheet. Android sharing destinations depend on installed apps.
+- The existing version 1 backup JSON format and storage key are unchanged.
